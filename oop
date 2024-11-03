@@ -1,0 +1,117 @@
+                             Lesson 1: Introduction to Java Object-Oriented Programming (OOP) 
+  
+ 1.What is Object-Oriented Programming? 
+ Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects," which can contain data and code: data in the form of fields (attributes or properties) and code in the form of procedures (methods). OOP allows for modular programming, enabling developers to create reusable code and manage complexity in software development. 
+ 2.Importance and Applications of OOP 
+ OOP is essential for developing large-scale applications, as it promotes code reusability, scalability, and maintainability. It is widely used in various domains, including web development, game development, and enterprise applications. Understanding OOP principles is crucial for any software developer, as it is a foundational concept in many programming languages, including Java. 
+ 3.Basic Concepts in OOP 
+  
+ Class: A blueprint for creating objects, defining attributes and methods. 
+ Object: An instance of a class that contains actual data and can perform actions. 
+ Inheritance: A mechanism where one class can inherit attributes and methods from another class. 
+ Encapsulation: The bundling of data and methods that operate on the data within one unit (class), restricting access to some components. 
+ Polymorphism: The ability of different classes to be treated as instances of the same class through a common interface, allowing for method overriding and overloading. 
+  
+ 4. Core Principles of OOP 
+  
+ Abstraction: Hiding complex implementation details and exposing only the necessary parts of an object. 
+ Encapsulation: Protecting an object's state by restricting access to its internal state and requiring all interaction to occur through methods. 
+ Inheritance: Allowing a new class to inherit properties and behaviors from an existing class. 
+ Polymorphism: Allowing methods to do different things based on the object it is acting upon, achieved through method overriding and overloading. 
+  
+ 5. Java OOP Syntax Overview 
+  
+ Class Declaration: 
+  
+ public class Car { 
+     // Attributes 
+     String color; 
+     String model; 
+  
+     // Method 
+     void drive() { 
+         System.out.println("The car is driving."); 
+     } 
+ } 
+  
+ Creating an Object: 
+  
+ Car myCar = new Car(); 
+ myCar.color = "Red"; 
+ myCar.drive(); 
+  
+                           Lesson 2: Classes and Objects 
+  
+ 1. Defining a Class A class is defined using the class keyword, followed by the class name and a pair of curly braces. Inside the class, you can define attributes (fields) and methods (functions) that operate on the attributes. 
+  
+ Example: 
+  
+ public class Dog { 
+     String breed; 
+     int age; 
+  
+     void bark() { 
+         System.out.println("Woof!"); 
+     } 
+ } 
+  
+ 2.Creating Objects Objects are created using the new keyword followed by the class constructor. 
+  
+ Example: 
+  
+ Dog myDog = new Dog(); 
+ myDog.breed = "Labrador"; 
+ myDog.age = 3; 
+ myDog.bark(); // Output: Woof! 
+  
+ 3. Constructors A constructor is a special method that is called when an object is instantiated. It can be used to initialize attributes. 
+  
+ Example: 
+  
+ public class Cat { 
+     String name; 
+  
+     // Constructor 
+     Cat(String name) { 
+         this.name = name; 
+     } 
+ } 
+  
+ Cat myCat = new Cat("Whiskers"); 
+  
+                       Lesson 3: Inheritance 
+  
+ 1. What is Inheritance? Inheritance allows a new class (subclass) to inherit properties and methods from an existing class (superclass). This promotes code reusability and establishes a relationship between classes. 
+  
+ 2. Creating a Subclass Use the extends keyword to create a subclass. 
+  
+ Example: 
+  
+ public class Animal { 
+     void eat() { 
+         System.out.println("This animal eats food."); 
+     } 
+ } 
+  
+ public class Bird extends Animal { 
+     void fly() { 
+         System.out.println("The bird is flying."); 
+     } 
+ } 
+  
+ Bird myBird = new Bird(); 
+ myBird.eat(); // Output: This animal eats food. 
+ myBird.fly(); // Output: The bird is flying. 
+  
+  
+ 3. Method Overriding Subclasses can provide specific implementations of methods defined in the superclass. 
+  
+ Example: 
+  
+ public class Dog 
+  
+  
+  
+  
+  
+ 
